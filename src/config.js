@@ -9,7 +9,7 @@
 // ⚠ Fill this in after creating the RC Santa Maria sheet
 // (see README, Part 1). Until then the app shows an error
 // screen with a button to preview demo data.
-export const SHEET_ID = "";
+export const SHEET_ID = "1rg1eMH5cMACO6bryIwBAERh75YQ-WLUmrwMIc9ro2Bs";
 
 // The names of the tabs in the Google Sheet.
 // Only change these if you rename the tabs in the sheet itself.
