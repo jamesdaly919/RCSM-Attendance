@@ -614,3 +614,24 @@ html, body { font-size: 17px; }
 @media (max-width: 420px) {
   .year-goal { flex-direction: column; text-align: center; }
 }
+
+/* ---------- Dues ---------- */
+.dues-lock { display: grid; gap: 0.6rem; margin-top: 0.5rem; }
+.dues-lock__row { display: flex; gap: 0.5rem; flex-wrap: wrap; align-items: center; }
+.dues-lock__row input {
+  flex: 1 1 8rem; min-width: 0; padding: 0.55rem 0.7rem;
+  border: 1px solid #c9d2e3; border-radius: 8px; font-size: 1rem;
+}
+.dues-msg { margin-top: 0.6rem; padding: 0.6rem 0.8rem; border-radius: 8px;
+  background: #eef3ff; border: 1px solid #c9d2e3; }
+.linklike { background: none; border: none; padding: 0; color: #17458F;
+  text-decoration: underline; cursor: pointer; font: inherit; }
+.dues-table { width: 100%; border-collapse: collapse; font-size: 0.95rem; }
+.dues-table th, .dues-table td { text-align: left; padding: 0.45rem 0.5rem;
+  border-bottom: 1px solid #e5e9f2; }
+.dues-table th { font-weight: 600; color: #5a6478; }
+.dues-neg { color: #b3261e; font-weight: 600; }
+.dues-pos { color: #1a7f37; font-weight: 600; }
+.dues-balance { margin: 0.25rem 0 0.75rem; display: flex; gap: 0.6rem;
+  align-items: center; flex-wrap: wrap; }
+.dues-statement h3 { margin: 1rem 0 0.4rem; }
